@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Leaflet Customization */
+.leaflet-container {
+  font-family: inherit;
+  z-index: 1;
+}
+
+.custom-div-icon,
+.custom-spring-icon,
+.custom-comm-icon {
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet-tooltip {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1) !important;
+  padding: 4px 8px !important;
+  color: #0f172a !important;
+  font-size: 11px !important;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: #cbd5e1 !important;
+}
+
+/* Print Styles for PDF Export */
+@media print {
+  aside, header, button, .no-print {
+    display: none !important;
+  }
+  body, html, main {
+    background: #ffffff !important;
+    color: #000000 !important;
+    overflow: visible !important;
+    height: auto !important;
+  }
+  .printable-report {
+    border: none !important;
+    box-shadow: none !important;
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}

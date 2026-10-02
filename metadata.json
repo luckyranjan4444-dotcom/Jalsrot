@@ -1,0 +1,6 @@
+{
+  "name": "JalSrot",
+  "description": "AI-Based Spring Revival and Recharge Planning GIS Decision-Support Platform for Tribal Areas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
